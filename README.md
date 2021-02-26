@@ -1,3 +1,4 @@
-# template
+# android-tools-base
 
-This repository contains basic files needed to setup new image repository with tests and auto uploads
+This image contains commandline-tools and platform-tools for android
+It is used as base image for grascm/android-buildtools and grascm/android-emulator
