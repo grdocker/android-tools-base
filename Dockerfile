@@ -23,6 +23,6 @@ ENV PATH="$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/"
 
 RUN yes | sdkmanager --licenses
 RUN mkdir $ANDROID_SDK_ROOT/platforms
-RUN sdkmanager --install "platform-tools"
+RUN sdkmanager --install "platform-tools" "emulator"
 
 ENV PATH="$PATH:$ANDROID_SDK_ROOT/platform-tools/"
